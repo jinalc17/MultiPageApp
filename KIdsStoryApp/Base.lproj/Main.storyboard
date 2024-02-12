@@ -543,11 +543,22 @@ Together, they embarked on a magical journey through the forest, guided by Spark
                                 <rect key="frame" x="20" y="173.66666666666669" width="390" height="182.66666666666669"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">From that day on, Spark embraced his inner light, shining brightly to guide those in need through the darkness.And so, in the heart of the forest, a new friendship was born, bound by courage, kindness, and the gentle glow of a friendly firefly.The end.</string>
+                                        <string key="content">From that day on, Spark embraced his inner light, shining brightly to guide those in need through the darkness.
+
+And so, in the heart of the forest, a new friendship was born, bound by courage, kindness, and the gentle glow of a friendly firefly.
+
+</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="The end.">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
