@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vpW-qx-KeT">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="U18-P0-1Nq">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,45 +13,45 @@
             <objects>
                 <viewController storyboardIdentifier="main_vc" id="BYZ-38-t0r" customClass="ViewController" customModule="KIdsStoryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="hC1-cv-Tbg">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="hC1-cv-Tbg">
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hD-KI-GQ0">
-                                <rect key="frame" x="10" y="411" width="373" height="35"/>
+                                <rect key="frame" x="10" y="411" width="410" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Level 2">
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="hfS-be-Dwd" kind="show" id="Vxl-0Y-an0"/>
+                                    <segue destination="hfS-be-Dwd" kind="show" id="Hee-IV-Lwi"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kids Stories" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfg-3j-dcT">
-                                <rect key="frame" x="20" y="203" width="353" height="48"/>
+                                <rect key="frame" x="20" y="203" width="390" height="48"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="40"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7EA-2j-HCq">
-                                <rect key="frame" x="10" y="356" width="373" height="35"/>
+                                <rect key="frame" x="10" y="356" width="410" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Level 1">
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="onI-k3-5dF" kind="show" id="q2p-gx-hML"/>
+                                    <segue destination="onI-k3-5dF" kind="show" id="2CL-KO-UZ2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wi7-xv-wzW">
-                                <rect key="frame" x="313" y="754" width="50" height="34"/>
+                                <rect key="frame" x="350" y="834" width="50" height="34"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system"/>
                                 <connections>
-                                    <segue destination="WGr-nF-3L6" kind="showDetail" id="K4s-rj-NsL"/>
+                                    <segue destination="WGr-nF-3L6" kind="showDetail" id="2N2-My-D4g"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -83,19 +83,19 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4501.5267175572517" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="5428.2442748091598" y="3.5211267605633805"/>
         </scene>
         <!--App InfoVC-->
         <scene sceneID="6sR-Cq-5CN">
             <objects>
                 <viewController storyboardIdentifier="AppInfoVC" id="WGr-nF-3L6" customClass="AppInfoVC" customModule="KIdsStoryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="gar-r5-Q4d">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="863"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2eP-aq-MnS">
-                                <rect key="frame" x="71.666666666666686" y="119" width="250" height="600"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <rect key="frame" x="90" y="119" width="250" height="600"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="600" id="BlY-fx-hCw"/>
                                     <constraint firstAttribute="width" constant="250" id="lLx-IR-k8U"/>
@@ -116,14 +116,14 @@ Thank you for choosing Kids Stories App! Happy reading!</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Kids Stories App!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKK-bU-Uit">
-                                <rect key="frame" x="71.666666666666686" y="89" width="250" height="23"/>
+                                <rect key="frame" x="90" y="89" width="250" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="seZ-92-xUx"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
                         <constraints>
                             <constraint firstItem="XKK-bU-Uit" firstAttribute="centerX" secondItem="gar-r5-Q4d" secondAttribute="centerX" id="7pk-Pw-nnj"/>
                             <constraint firstItem="2eP-aq-MnS" firstAttribute="centerX" secondItem="gar-r5-Q4d" secondAttribute="centerX" id="NWu-fc-O1l"/>
@@ -135,37 +135,38 @@ Thank you for choosing Kids Stories App! Happy reading!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Rz-rT-Y6p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2648" y="906"/>
+            <point key="canvasLocation" x="4502" y="807"/>
         </scene>
         <!--Level1-->
         <scene sceneID="2Ka-eS-rKg">
             <objects>
                 <viewController storyboardIdentifier="level1_vc" id="onI-k3-5dF" customClass="Level1VC" customModule="KIdsStoryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZSV-lE-Jlw">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="woI-hs-Ur8">
-                                <rect key="frame" x="16" y="103" width="361" height="715"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="woI-hs-Ur8">
+                                <rect key="frame" x="20" y="103" width="390" height="795"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xE4-gB-YFM">
-                                <rect key="frame" x="20" y="464" width="353" height="35"/>
+                                <rect key="frame" x="20" y="464" width="390" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Whiskers' Discovery">
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="CZl-FM-UVQ" kind="show" id="RuD-dS-msd"/>
+                                    <segue destination="CZl-FM-UVQ" kind="show" id="ew9-rz-0uc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oyq-l4-UiS">
-                                <rect key="frame" x="20" y="409" width="353" height="35"/>
+                                <rect key="frame" x="20" y="409" width="390" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="The Brave Little Turtle">
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="eCd-dk-CK5" kind="show" id="kDX-dc-OKU"/>
+                                    <segue destination="eCd-dk-CK5" kind="show" id="rlt-WK-tgm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -190,27 +191,27 @@ Thank you for choosing Kids Stories App! Happy reading!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EHg-EB-brd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5452.6717557251905" y="-112.67605633802818"/>
+            <point key="canvasLocation" x="6379.3893129770986" y="-112.67605633802818"/>
         </scene>
         <!--Page1-->
         <scene sceneID="8eK-45-uhZ">
             <objects>
                 <viewController storyboardIdentifier="Level1S2" id="CZl-FM-UVQ" customClass="Level1S2" customModule="KIdsStoryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QEk-lL-fwb">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="CDO-aD-W6A">
-                                <rect key="frame" x="16" y="103" width="361" height="715"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="CDO-aD-W6A">
+                                <rect key="frame" x="20" y="103" width="390" height="795"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whiskers' Discovery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L8w-nX-DrN">
-                                <rect key="frame" x="115.33333333333333" y="118.00000000000001" width="162.66666666666669" height="21.666666666666671"/>
+                                <rect key="frame" x="133.66666666666666" y="118.00000000000001" width="162.99999999999997" height="21.666666666666671"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b68-gD-LgE">
-                                <rect key="frame" x="20" y="169.66666666666669" width="353" height="182.66666666666669"/>
+                                <rect key="frame" x="20" y="169.66666666666663" width="390" height="162.33333333333337"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Once upon a time, in a cozy house, lived a curious kitten named Whiskers. One day, while playing, he found a shiny key. Excited, he explored until he found a chest. Inside, he discovered a golden bell, a gift from his owner. Filled with joy, Whiskers returned home, eager for more adventures.
@@ -251,31 +252,31 @@ Thank you for choosing Kids Stories App! Happy reading!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vfi-2Y-jWH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6322.900763358778" y="142.25352112676057"/>
+            <point key="canvasLocation" x="7249.6183206106871" y="142.25352112676057"/>
         </scene>
         <!--Page1-->
         <scene sceneID="Bye-sn-pF9">
             <objects>
                 <viewController id="eCd-dk-CK5" customClass="Level1S1" customModule="KIdsStoryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cph-qo-YOG">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="gJ3-3H-ft0">
-                                <rect key="frame" x="16" y="103" width="361" height="715"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="gJ3-3H-ft0">
+                                <rect key="frame" x="20" y="103" width="390" height="795"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3N-Ld-AHG">
-                                <rect key="frame" x="20" y="767" width="353" height="35"/>
+                                <rect key="frame" x="20" y="847" width="390" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next">
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="ElF-hd-BRa" kind="show" id="xtR-t2-9nA"/>
+                                    <segue destination="ElF-hd-BRa" kind="show" id="ZII-aZ-vRw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFV-gS-j7x">
-                                <rect key="frame" x="20" y="173.66666666666669" width="353" height="527.66666666666652"/>
+                                <rect key="frame" x="20" y="173.66666666666663" width="390" height="487"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Once upon a time, in a peaceful pond nestled among tall trees, there lived a little turtle named Timmy. Timmy was the smallest turtle in the pond, but he had the biggest heart. He dreamed of exploring the world beyond the pond, but his timid nature often held him back.
@@ -301,7 +302,7 @@ Timmy's heart fluttered with excitement. He knew he had to see the island for hi
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Brave Little Turtle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwN-bu-c4I">
-                                <rect key="frame" x="97" y="118.00000000000001" width="199" height="25.666666666666671"/>
+                                <rect key="frame" x="115.66666666666669" y="118.00000000000001" width="199" height="25.666666666666671"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -330,27 +331,27 @@ Timmy's heart fluttered with excitement. He knew he had to see the island for hi
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u2m-ag-LJf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6322.900763358778" y="-536.61971830985919"/>
+            <point key="canvasLocation" x="7249.6183206106871" y="-536.61971830985919"/>
         </scene>
         <!--Page2-->
         <scene sceneID="8Ke-Mr-bBh">
             <objects>
                 <viewController storyboardIdentifier="L1S1P2" id="ElF-hd-BRa" customClass="L1S1P2" customModule="KIdsStoryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Woa-kv-5l8">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="gNH-Vs-7ot">
-                                <rect key="frame" x="16" y="103" width="361" height="715"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="gNH-Vs-7ot">
+                                <rect key="frame" x="20" y="103" width="390" height="795"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Brave Little Turtle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9a-x4-UHh">
-                                <rect key="frame" x="97" y="113" width="199" height="25.666666666666657"/>
+                                <rect key="frame" x="115.66666666666669" y="113" width="199" height="25.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zic-Xa-yCv">
-                                <rect key="frame" x="20" y="168.66666666666669" width="353" height="568.33333333333326"/>
+                                <rect key="frame" x="20" y="168.66666666666669" width="390" height="527.66666666666652"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Finally, after what seemed like hours, Timmy reached the mysterious island. He stepped onto the sandy shore and gazed in wonder at the lush greenery and sparkling waters that surrounded him.
@@ -396,27 +397,27 @@ And so, with a happy heart and a newfound sense of confidence, Timmy continued t
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0CR-J4-Vy9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7185.4961832061063" y="-536.61971830985919"/>
+            <point key="canvasLocation" x="8112.2137404580153" y="-536.61971830985919"/>
         </scene>
         <!--Level2-->
         <scene sceneID="S6w-j9-WMM">
             <objects>
                 <viewController storyboardIdentifier="level2_vc" id="hfS-be-Dwd" customClass="Level2VC" customModule="KIdsStoryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zCl-cL-lDu">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="an9-7g-foz">
-                                <rect key="frame" x="16" y="103" width="361" height="715"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="an9-7g-foz">
+                                <rect key="frame" x="20" y="103" width="390" height="795"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yxf-v8-7Rm">
-                                <rect key="frame" x="20" y="408.66666666666669" width="353" height="35"/>
+                                <rect key="frame" x="20" y="448.66666666666669" width="390" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="The Friendly Firefly">
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="dmR-am-X78" kind="show" id="A7P-uP-6Sg"/>
+                                    <segue destination="dmR-am-X78" kind="show" id="iNp-eC-NYm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -437,27 +438,27 @@ And so, with a happy heart and a newfound sense of confidence, Timmy continued t
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bXf-E7-j6r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5451.1450381679388" y="590.84507042253529"/>
+            <point key="canvasLocation" x="6377.8625954198469" y="590.84507042253529"/>
         </scene>
         <!--Page1-->
         <scene sceneID="9k4-Yv-Vci">
             <objects>
                 <viewController storyboardIdentifier="Level2S1" id="dmR-am-X78" customClass="Level2S1" customModule="KIdsStoryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nxK-M4-oTD">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="uAF-u6-pek">
-                                <rect key="frame" x="16" y="103" width="361" height="715"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="uAF-u6-pek">
+                                <rect key="frame" x="20" y="103" width="390" height="795"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Friendly Firefly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0NI-Ul-9We">
-                                <rect key="frame" x="109.66666666666669" y="118.00000000000001" width="174" height="25.666666666666671"/>
+                                <rect key="frame" x="128" y="118.00000000000001" width="174" height="25.666666666666671"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqc-LI-WdS">
-                                <rect key="frame" x="20" y="173.66666666666669" width="353" height="527.66666666666652"/>
+                                <rect key="frame" x="20" y="173.66666666666663" width="390" height="487"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">In a lush forest, there lived a little firefly named Spark. Unlike other fireflies, Spark didn't like to glow brightly. He preferred to hide in the shadows and watch the world around him.
@@ -487,13 +488,13 @@ Together, they embarked on a magical journey through the forest, guided by Spark
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8EL-Hr-5gX">
-                                <rect key="frame" x="20" y="767" width="353" height="35"/>
+                                <rect key="frame" x="20" y="847" width="390" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next">
-                                    <color key="baseBackgroundColor" systemColor="systemCyanColor"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="L1r-E3-aV3" kind="show" id="IIs-wp-8SE"/>
+                                    <segue destination="L1r-E3-aV3" kind="show" id="BGh-oy-6KM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -519,48 +520,34 @@ Together, they embarked on a magical journey through the forest, guided by Spark
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lJ6-6e-70a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6323" y="906"/>
+            <point key="canvasLocation" x="7288" y="906"/>
         </scene>
         <!--Page2-->
         <scene sceneID="tvr-NM-Mda">
             <objects>
                 <viewController storyboardIdentifier="L2S1P2" id="L1r-E3-aV3" customClass="L2S1P2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x8L-47-rvn">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="ivM-Ap-elq">
-                                <rect key="frame" x="16" y="103" width="361" height="715"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="ivM-Ap-elq">
+                                <rect key="frame" x="20" y="103" width="390" height="795"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Friendly Firefly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cto-Ma-B9X">
-                                <rect key="frame" x="109.66666666666669" y="118.00000000000001" width="174" height="25.666666666666671"/>
+                                <rect key="frame" x="128" y="118.00000000000001" width="174" height="25.666666666666671"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7I6-mJ-VOQ">
-                                <rect key="frame" x="20" y="173.66666666666669" width="353" height="527.66666666666652"/>
+                                <rect key="frame" x="20" y="173.66666666666669" width="390" height="182.66666666666669"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">In a lush forest, there lived a little firefly named Spark. Unlike other fireflies, Spark didn't like to glow brightly. He preferred to hide in the shadows and watch the world around him.
-
-One day, while fluttering through the trees, Spark stumbled upon a lost butterfly named Flutter. Flutter was crying softly, unable to find her way back home.
-
-Moved by Flutter's plight, Spark decided to help. Despite his fear of the dark, he summoned all his courage and began to glow gently, illuminating the path for Flutter.
-
-Together, they embarked on a magical journey through the forest, guided by Spark's soft glow. Along the way, they encountered wise old owls, playful squirrels, and colorful flowers.
-
-</string>
+                                        <string key="content">From that day on, Spark embraced his inner light, shining brightly to guide those in need through the darkness.And so, in the heart of the forest, a new friendship was born, bound by courage, kindness, and the gentle glow of a friendly firefly.The end.</string>
                                         <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">As they reached Flutter's home, Spark's glow grew brighter, filling the night sky with a warm and welcoming light. Flutter hugged Spark tightly, grateful for his kindness and bravery.</string>
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -585,25 +572,25 @@ Together, they embarked on a magical journey through the forest, guided by Spark
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nT3-dc-aRu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7185" y="906"/>
+            <point key="canvasLocation" x="8112" y="906"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="VPw-kj-d5p">
+        <scene sceneID="U6P-bB-iX8">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vpW-qx-KeT" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="U18-P0-1Nq" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3V8-qL-Vwf">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vDn-ed-r7a">
+                        <rect key="frame" x="0.0" y="59" width="430" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TDc-J1-VUT"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="j2h-0M-9iU"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XdP-S6-1qa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qaq-zI-ydi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3574.8091603053435" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="4501.5267175572517" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>
@@ -615,8 +602,8 @@ Together, they embarked on a magical journey through the forest, guided by Spark
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemCyanColor">
-            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
